@@ -18,9 +18,10 @@ manifest:
       remote: Arawasu
       revision: main
 
+    # v0.3.0 uses Zephyr 3.5, compatible with these legacy board definitions.
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: edf5c0814fd3ea202e43aad2d68fd32e882a518c
       import: app/west.yml
 
     - name: zmk-nice-oled
