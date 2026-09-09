@@ -3,12 +3,12 @@ include:
   - board: eyelash_sofle_left
     shield: nice_view_gem
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n -DCONFIG_NICE_VIEW_WIDGET_INVERTED=y
     artifact-name: eyelash_sofle_gem_studio_left
 
   - board: eyelash_sofle_right
     shield: nice_view_gem
-    cmake-args: -DCONFIG_NICE_VIEW_GEM_ANIMATION=y -DCONFIG_NICE_VIEW_GEM_ANIMATION_MS=960
+    cmake-args: -DCONFIG_NICE_VIEW_GEM_ANIMATION=y -DCONFIG_NICE_VIEW_GEM_ANIMATION_MS=960 -DCONFIG_NICE_VIEW_WIDGET_INVERTED=y
     artifact-name: eyelash_sofle_gem_right
 
   - board: eyelash_sofle_left
