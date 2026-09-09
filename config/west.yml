@@ -28,5 +28,10 @@ manifest:
       remote: Arawasu
       revision: main
 
+    # Gem v0.3.0 matches the pinned ZMK/Zephyr version.
+    - name: nice-view-gem
+      url: https://github.com/M165437/nice-view-gem
+      revision: 7794ebf7f75d7e16cb05240bcffe6c5a45ef5b44
+
   self:
     path: config
