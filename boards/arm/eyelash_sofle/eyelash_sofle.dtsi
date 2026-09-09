@@ -31,7 +31,7 @@
 		compatible = "alps,ec11";
 		label = "LEFT_ENCODER";
 		resolution = <4>;
-        steps = <40>;
+        steps = <20>; /* EC11 detent trial: 40->20 for direction reversal */
         a-gpios = <&gpio1 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 	    b-gpios = <&gpio1 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		status = "disabled";
