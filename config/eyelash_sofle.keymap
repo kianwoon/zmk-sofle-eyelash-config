@@ -214,3 +214,6 @@ ZMK_LAYER(SYS,
   //  ╰──────────╯               ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯   ╰──────────╯╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────╯
   //  ENCODER PRESS                                                                                         HAT PRESS
 , &rgb_encoder, "SYS")
+
+// Preserve the two user layers backed up from ZMK Studio.
+#include "preserved-studio-keymap.dtsi"

@@ -18,14 +18,20 @@ manifest:
       remote: Arawasu
       revision: main
 
+    # v0.3.0 uses Zephyr 3.5, compatible with these legacy board definitions.
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: edf5c0814fd3ea202e43aad2d68fd32e882a518c
       import: app/west.yml
 
     - name: zmk-nice-oled
       remote: Arawasu
       revision: main
+
+    # Gem v0.3.0 matches the pinned ZMK/Zephyr version.
+    - name: nice-view-gem
+      url: https://github.com/M165437/nice-view-gem
+      revision: 7794ebf7f75d7e16cb05240bcffe6c5a45ef5b44
 
   self:
     path: config

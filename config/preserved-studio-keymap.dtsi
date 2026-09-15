@@ -1,0 +1,146 @@
+/* Generated from the verified Studio backup, 2026-09-09.
+ * Raw HID values preserve implicit modifiers exactly.
+ * Only layers 0 and 1 are overridden; remaining layers are unchanged.
+ */
+/ {
+    keymap {
+        layer_0 {
+            display-name = "00000";
+            bindings = <
+                &kp 0x00070029 /* 0: Key Press */
+                &kp 0x0007001e /* 1: Key Press */
+                &kp 0x0007001f /* 2: Key Press */
+                &kp 0x00070020 /* 3: Key Press */
+                &kp 0x00070021 /* 4: Key Press */
+                &kp 0x00070022 /* 5: Key Press */
+                &kp 0x00070052 /* 6: Key Press */
+                &kp 0x00070023 /* 7: Key Press */
+                &kp 0x00070024 /* 8: Key Press */
+                &kp 0x00070025 /* 9: Key Press */
+                &kp 0x00070026 /* 10: Key Press */
+                &kp 0x00070027 /* 11: Key Press */
+                &kp 0x0007002a /* 12: Key Press */
+                &kp 0x0007002b /* 13: Key Press */
+                &kp 0x00070014 /* 14: Key Press */
+                &kp 0x0007001a /* 15: Key Press */
+                &kp 0x00070008 /* 16: Key Press */
+                &kp 0x00070015 /* 17: Key Press */
+                &kp 0x00070017 /* 18: Key Press */
+                &kp 0x00070051 /* 19: Key Press */
+                &kp 0x0007001c /* 20: Key Press */
+                &kp 0x00070018 /* 21: Key Press */
+                &kp 0x0007000c /* 22: Key Press */
+                &kp 0x00070012 /* 23: Key Press */
+                &kp 0x00070013 /* 24: Key Press */
+                &kp 0x00070035 /* 25: Key Press */
+                &kp 0x0007002d /* 26: Key Press */
+                &kp 0x00070004 /* 27: Key Press */
+                &kp 0x00070016 /* 28: Key Press */
+                &kp 0x00070007 /* 29: Key Press */
+                &kp 0x00070009 /* 30: Key Press */
+                &kp 0x0007000a /* 31: Key Press */
+                &kp 0x00070050 /* 32: Key Press */
+                &kp 0x0007000b /* 33: Key Press */
+                &kp 0x0007000d /* 34: Key Press */
+                &kp 0x0007000e /* 35: Key Press */
+                &kp 0x0007000f /* 36: Key Press */
+                &kp 0x00070034 /* 37: Key Press */
+                &kp 0x00070033 /* 38: Key Press */
+                &kp 0x000700e3 /* 39: Key Press */
+                &kp 0x0007001d /* 40: Key Press */
+                &kp 0x0007001b /* 41: Key Press */
+                &kp 0x00070006 /* 42: Key Press */
+                &kp 0x00070019 /* 43: Key Press */
+                &kp 0x00070005 /* 44: Key Press */
+                &kp 0x0007004f /* 45: Key Press */
+                &kp 0x00070011 /* 46: Key Press */
+                &kp 0x00070010 /* 47: Key Press */
+                &kp 0x00070036 /* 48: Key Press */
+                &kp 0x00070037 /* 49: Key Press */
+                &kp 0x00070038 /* 50: Key Press */
+                &kp 0x00070031 /* 51: Key Press */
+                &bt 0x00000001 0x00000000 /* 52: Bluetooth */
+                &kp 0x000700e0 /* 53: Key Press */
+                &kp 0x000700e2 /* 54: Key Press */
+                &kp 0x0007002e /* 55: Key Press */
+                &kp 0x0007002c /* 56: Key Press */
+                &kp 0x000700e1 /* 57: Key Press */
+                &kp 0x00070028 /* 58: Key Press */
+                &kp 0x000700e5 /* 59: Key Press */
+                &kp 0x0007002c /* 60: Key Press */
+                &kp 0x0007002f /* 61: Key Press */
+                &kp 0x00070030 /* 62: Key Press */
+                &mo 0x00000001 /* 63: Momentary Layer */
+            >;
+        };
+        layer_1 {
+            display-name = "---------";
+            bindings = <
+                &kp 0x00070028 /* 0: Key Press */
+                &kp 0x0907002c /* 1: Key Press */
+                &kp 0x01070052 /* 2: Key Press */
+                &kp 0x01070051 /* 3: Key Press */
+                &kp 0x000c0070 /* 4: Key Press */
+                &kp 0x000c006f /* 5: Key Press */
+                &mmv 0x0000fb50 /* 6: mouse_move */
+                &kp 0x000c00b6 /* 7: Key Press */
+                &kp 0x000c00cd /* 8: Key Press */
+                &kp 0x000c00b5 /* 9: Key Press */
+                &rgb_ug 0x0000000b 0x00000000 /* 10: Underglow */
+                &rgb_ug 0x00000000 0x00000000 /* 11: Underglow */
+                &kp 0x0007004c /* 12: Key Press */
+                &key_repeat /* 13: Key Repeat */
+                &kp 0x00070035 /* 14: Key Press */
+                &mkp 0x00000001 /* 15: mouse_key_press */
+                &mkp 0x00000004 /* 16: mouse_key_press */
+                &mkp 0x00000002 /* 17: mouse_key_press */
+                &mkp 0x00000008 /* 18: mouse_key_press */
+                &mmv 0x000004b0 /* 19: mouse_move */
+                &kp 0x0007004b /* 20: Key Press */
+                &kp 0x0007004d /* 21: Key Press */
+                &kp 0x00070052 /* 22: Key Press */
+                &kp 0x0007004a /* 23: Key Press */
+                &kp 0x0007002d /* 24: Key Press */
+                &kp 0x000c0036 /* 25: Key Press */
+                &trans /* 26: Transparent */
+                &kp 0x02070035 /* 27: Key Press */
+                &trans /* 28: Transparent */
+                &trans /* 29: Transparent */
+                &trans /* 30: Transparent */
+                &mkp 0x00000010 /* 31: mouse_key_press */
+                &mmv 0xfb500000 /* 32: mouse_move */
+                &kp 0x0007004e /* 33: Key Press */
+                &kp 0x00070050 /* 34: Key Press */
+                &kp 0x00070051 /* 35: Key Press */
+                &kp 0x0007004f /* 36: Key Press */
+                &kp 0x0007002f /* 37: Key Press */
+                &kp 0x00070030 /* 38: Key Press */
+                &kp 0x0807000d /* 39: Key Press */
+                &rgb_ug 0x00000002 0x00000000 /* 40: Underglow */
+                &rgb_ug 0x00000001 0x00000000 /* 41: Underglow */
+                &rgb_ug 0x0000000b 0x00000000 /* 42: Underglow */
+                &rgb_ug 0x0000000c 0x00000000 /* 43: Underglow */
+                &rgb_ug 0x00000009 0x00000000 /* 44: Underglow */
+                &mmv 0x04b00000 /* 45: mouse_move */
+                &rgb_ug 0x00000006 0x00000000 /* 46: Underglow */
+                &rgb_ug 0x00000005 0x00000000 /* 47: Underglow */
+                &kp 0x00070049 /* 48: Key Press */
+                &kp 0x00070044 /* 49: Key Press */
+                &kp 0x0b070038 /* 50: Key Press */
+                &kp 0x00070028 /* 51: Key Press */
+                &bt 0x00000000 0x00000000 /* 52: Bluetooth */
+                &kt 0x08070028 /* 53: Key Toggle */
+                &bl 0x00000002 0x00000000 /* 54: Backlight */
+                &bl 0x00000001 0x00000000 /* 55: Backlight */
+                &rgb_ug 0x00000009 0x00000000 /* 56: Underglow */
+                &rgb_ug 0x0000000a 0x00000000 /* 57: Underglow */
+                &bt 0x00000001 0x00000000 /* 58: Bluetooth */
+                &rgb_ug 0x00000004 0x00000000 /* 59: Underglow */
+                &rgb_ug 0x00000003 0x00000000 /* 60: Underglow */
+                &rgb_ug 0x00000008 0x00000000 /* 61: Underglow */
+                &rgb_ug 0x00000007 0x00000000 /* 62: Underglow */
+                &tog 0x00000001 /* 63: Toggle Layer */
+            >;
+        };
+    };
+};

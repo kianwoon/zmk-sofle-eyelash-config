@@ -30,8 +30,7 @@
 	left_encoder: encoder_left {
 		compatible = "alps,ec11";
 		label = "LEFT_ENCODER";
-		resolution = <4>;
-        steps = <40>;
+		steps = <30>; /* standard 30-detent EC11: 30 pulses/rotation */
         a-gpios = <&gpio1 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 	    b-gpios = <&gpio1 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		status = "disabled";
@@ -40,6 +39,7 @@
     sensors {
 		compatible = "zmk,keymap-sensors";
 		sensors = <&left_encoder>;
+		triggers-per-rotation = <30>; /* 1 volume step per detent click */
 	};
 
     kscan0: kscan {
