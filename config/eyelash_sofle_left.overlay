@@ -1,0 +1,12 @@
+/*
+ * Left half only (both Studio builds use board eyelash_sofle_left).
+ *
+ * The board dtsi adds a generic CDC ACM port (&cdc_acm_uart) and the
+ * studio-rpc-usb-uart snippet adds a second one for Studio RPC. macOS then
+ * shows two identical "Eyelash Sofle" serial ports, and ZMK Studio fails
+ * silently if the non-RPC one is picked. Disable the board port so only the
+ * Studio RPC port enumerates.
+ */
+&cdc_acm_uart {
+    status = "disabled";
+};
